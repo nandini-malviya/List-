@@ -1,0 +1,22 @@
+import java.awt.*;  
+public class Country  
+{  
+     Country(){  
+        Frame f= new Frame();  
+        List l1=new List(5);  
+        l1.setBounds(100,100, 75,75);  
+        l1.add("SWITZERLAND");  
+        l1.add("NEW ZEALAND");  
+        l1.add("SCOTLAND");  
+        l1.add("NORWAY");  
+        l1.add("USA");  
+        f.add(l1);  
+        f.setSize(400,400);  
+        f.setLayout(null);  
+        f.setVisible(true);  
+     }  
+public static void main(String args[])  
+{  
+   new Country();  
+}  
+}  
